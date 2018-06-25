@@ -1,14 +1,10 @@
 # dog.rb\
-Class.dog
-end
+class Dog 
+  def bark 
+    puts "Woof!"
+  end
 
-bark = dog.new
-sit = dog.new
-end
-
-Class.Person
-end
-
-talk = person.new
-walk = person.new
-end
+  class Dog 
+    def sit 
+      puts "The dog is sitting."
+    end 
